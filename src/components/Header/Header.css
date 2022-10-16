@@ -1,0 +1,179 @@
+ .header {
+     position: fixed;
+     display: flex;
+     width: 100%;
+     background-color: black;
+     height: 2.5rem;
+     color: white;
+     z-index: 2;
+ }
+
+ .button_header {
+     background-color: black;
+     border-radius: black;
+     color: white;
+     padding: 20px 58px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 1px 5px;
+     margin-top: 3%;
+     margin-bottom: 3%;
+     border-radius: 0.5rem;
+     margin-left: 5rem;
+     cursor: pointer;
+
+ }
+
+ .buttonCart__image {
+     width: 2.5rem;
+     height: 2rem;
+     margin-left: 106rem;
+     background-color: white;
+     margin-top: 5px;
+     cursor: pointer;
+ }
+
+ .logo {
+     width: auto;
+     height: 23px;
+     border-radius: 4rem;
+     margin-left: 15px;
+     margin-top: 9px;
+ }
+
+ .logo-content {
+     font-size: large;
+     margin-top: 8px;
+     margin-left: 2px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ /* Banner alignment */
+ .banner-main {
+     position: relative;
+     height: 494px;
+
+ }
+
+ /*Banner Style*/
+ .bannerStyle {
+
+     height: 455px;
+     margin-top: 39px;
+     width: 100%;
+
+
+ }
+
+ .whole-right {
+     position: absolute;
+     right: 3rem;
+     top: 5rem;
+ }
+
+
+ .banner-right {
+     color: black;
+     float: right;
+     margin-right: 20%;
+     font-weight: 500;
+     font-size: 2.3rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .banner-right1 {
+     color: black;
+     float: right;
+     margin-top: 1px;
+     margin-right: 22%;
+     font-size: 1.4rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+
+ /*Payment Details*/
+
+ .payment-main {
+     position: relative;
+     display: flex;
+     height: 118px;
+     background-color: hsla(0, 0%, 95%, .6);
+     width: 100%;
+
+ }
+
+ .bank_dealers {
+     font-size: 1.32rem;
+     padding: 10px;
+     margin-left: 20px;
+     margin-top: 40px;
+     position: relative;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .bank_image1 {
+     width: auto;
+     height: 3.3rem;
+     margin-top: 34px;
+     margin-left: 600px;
+     padding: 0.8rem;
+
+
+
+ }
+
+ .bank_image2 {
+     width: auto;
+     height: 3.5rem;
+     margin-top: 30px;
+     /* margin-left: 0.5%; */
+     padding: 0.8rem;
+
+ }
+
+ .bank_image3 {
+     width: auto;
+     height: 3.3rem;
+     margin-top: 20px;
+     /* margin-left: 0.5%; */
+     padding: 0.8rem;
+
+ }
+
+ .bank_image4 {
+     width: auto;
+     height: 4.5rem;
+     margin-top: 20px;
+     margin-left: 0.3rem;
+     padding: 0.8rem;
+
+ }
+
+ /*List of Products Details*/
+ .active_products {
+     cursor: pointer;
+
+     color: black;
+     font-weight: 600;
+     font-size: 1.3rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     padding: 8.5px;
+     margin-left: -81rem;
+     position: relative;
+
+
+ }
+
+ .active_products_false {
+     cursor: pointer;
+     padding: 9px;
+     color: gray;
+     position: relative;
+     font-size: 1.3rem;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }

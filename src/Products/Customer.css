@@ -1,0 +1,172 @@
+.customer {
+    align-content: center;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    margin-top: 2rem;
+}
+
+.custHeading {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: Manrope, sans-serif;
+    font-size: 2rem;
+
+}
+
+.custReview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.3rem auto;
+    width: 76%;
+    height: 19rem;
+    margin-left: 20%;
+    object-fit: contain;
+}
+
+.swipper {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    touch-action: pan-y;
+
+}
+
+.wrapper {
+    box-sizing: initial;
+    display: flex;
+    height: 1%;
+    position: relative;
+    width: 130%;
+    z-index: 1;
+}
+
+.swiper-slide {
+
+    flex-shrink: 0;
+    height: 300%;
+    position: relative;
+    width: 20%;
+    padding: 0.3rem;
+
+
+}
+
+.carouselBox {
+    background: #fff;
+    box-shadow: 0 0 6px 0 #faf8e2;
+    color: #000;
+    height: 20rem;
+    margin: .3rem;
+    overflow: hidden;
+    width: 96%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+
+.customer__review {
+
+    font-family: Manrope, sans-serif;
+    margin: 1rem;
+    font-size: 1.28rem;
+    text-align: left;
+
+}
+
+.press_headings {
+    color: white;
+    padding: 1rem;
+    font-family: Manrope, sans-serif;
+    font-size: 2rem;
+    margin-left: 3rem;
+
+
+}
+
+.media_reviews {
+    display: flex;
+    margin: 0.3rem;
+    justify-content: center;
+    flex-direction: row;
+    width: 71%;
+    margin-left: 19%;
+    padding-left: 10px;
+
+}
+
+.media_wrapper {
+
+
+    box-sizing: initial;
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    position: relative;
+    width: 100%;
+
+}
+
+.swiper-slide_press {
+    /* flex-shrink: 0; */
+    position: relative;
+    width: auto;
+    padding: 19px;
+    height: 100%;
+
+
+
+}
+
+.presscarouselBox {
+    background: #f3f3f3;
+    box-shadow: 0 0 6px 0 #faf8e2;
+    color: #000;
+    height: 13rem;
+    overflow: hidden;
+    width: 25%;
+    align-items: center;
+    font-size: 1.3rem;
+    margin: 2rem;
+    padding: 0.3rem;
+    margin-left: 1rem;
+}
+
+.press__review {
+    font-family: Manrope, sans-serif;
+    margin: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.press_content {
+
+    align-content: center;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.press_swipper {
+    list-style: none;
+    overflow: hidden;
+
+    position: relative;
+    z-index: 1;
+    touch-action: pan-y;
+}
+
+/* style="width: 337.667px; margin-right: 20px;" */
